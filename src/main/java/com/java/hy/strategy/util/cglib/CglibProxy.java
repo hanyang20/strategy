@@ -1,8 +1,10 @@
 package com.java.hy.strategy.util.cglib;
 
-import org.easymock.cglib.proxy.Enhancer;
-import org.easymock.cglib.proxy.MethodInterceptor;
-import org.easymock.cglib.proxy.MethodProxy;
+
+
+import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodInterceptor;
+import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 

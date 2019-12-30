@@ -1,7 +1,8 @@
 package com.java.hy.strategy.util.cglib;
 
-import util.BoyPerson;
-import util.Person;
+
+import com.java.hy.strategy.util.BoyPerson;
+import com.java.hy.strategy.util.Person;
 
 public class CglibProxyTest {
 

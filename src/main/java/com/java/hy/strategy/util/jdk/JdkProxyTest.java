@@ -1,7 +1,8 @@
 package com.java.hy.strategy.util.jdk;
 
-import util.BoyPerson;
-import util.Person;
+
+import com.java.hy.strategy.util.BoyPerson;
+import com.java.hy.strategy.util.Person;
 
 public class JdkProxyTest {
 
@@ -10,6 +11,5 @@ public class JdkProxyTest {
         JdkProxy jdkProxy = new JdkProxy(person);
         Person bind = (Person) jdkProxy.bind();
         bind.findLove();
-
     }
 }
